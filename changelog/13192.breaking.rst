@@ -1,0 +1,1 @@
+:func:`pytest.raises` now raises an :exc:`AssertionError` when a different exception is raised than the one expected. The raised exception can now be accessed in the ``__cause__`` attribute if desired.
