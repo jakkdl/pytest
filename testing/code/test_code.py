@@ -88,7 +88,7 @@ def test_unicode_handling() -> None:
     def f() -> None:
         raise ValueError(value)
 
-    excinfo = pytest.raises(ValueError, f)  
+    excinfo = pytest.raises(ValueError, f)
     str(excinfo)
 
 
