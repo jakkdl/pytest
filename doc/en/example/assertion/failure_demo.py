@@ -1,3 +1,4 @@
+# ruff: noqa: RUF059
 from __future__ import annotations
 
 import pytest
